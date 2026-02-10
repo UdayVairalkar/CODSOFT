@@ -20,27 +20,27 @@ totalmarks=totalmarks+marks;
 
 
         }
-        percentage =(float) totalmarks / Subject;
+       percentage = (float) totalmarks / (Subject * 100) * 100;
        System.out.println("the percentage of students is ="+percentage);
        if (percentage>=75)
     {
-        System.out.println("grade A");
+        System.out.println("YOU GOT THR GRADE A");
     }
     else if (percentage  >=60)
     {
-        System.out.println("grade b");
+        System.out.println("YOU GOT THE GRADE B");
     }
     else if (percentage >=40)
         {
-System.out.println("grade c");
+System.out.println("YOU GOT GRADE C");
 }
 else 
 {
-    System.out.println("fail");
+    System.out.println("FAIL");
 }
 
-System.out.println("the total marks is ="+totalmarks);
-System.err.println("percentage is "+percentage);
+System.out.println("The total marks is ="+totalmarks);
+System.out.println("percentage is "+percentage);
 
     }
 }
