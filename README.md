@@ -7,3 +7,7 @@ In which we make class name studentgrade genrator
 Then we initialze the subject then we calculate percentage 
 We also assign grade according to the percentage that studeng got by using is else ladder 
 And the end we print the grade we got and percentage and sum of all marks that we got in number of subjects 
+
+
+
+all internshio codes are uploaded here
